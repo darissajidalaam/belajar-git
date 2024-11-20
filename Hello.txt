@@ -53,3 +53,45 @@ git checkout branch-1
 
 //melihat posisi sedang dibranch mana
 git branch
+
+
+UPDATE LAGI BOY
+
+====== upload ke branch-1 =======
+
+git add .
+git commit -m ""update hello.txt tutor buat branch baru/branch-1"
+git push
+
+=== gabungin dari branch-1 ke master GitHub ===
+
+digithub cari branch-1 pilih compare&pull request / new pull request
+tambahkan judul dan deskripsinya
+
+merge and pull selesai
+
+
+======== sinkron GitHub ke lokal ======
+//tarik update dari GitHub ke lokal
+git pull
+
+
+==== buat branch dari lokal ===
+//buat branch apa dan bersumber cabang dari branch mana
+git branch branch-2 master
+
+// check branch dilokal
+git branch -a
+
+//upload branch 2 ke GitHub
+git checkout branch-2
+git add .
+git commit -m "add branch-2"
+//pertama kali harus pakai upstream
+git push --set-upstream origin branch-2
+
+
+=== orang lain mau pull ke folder ==
+buat folder baru lalu klik kanan git bash here
+git clone (tujuanyangmaudidownload.git)
+
