@@ -40,10 +40,16 @@ git push
 git log
 
 
+==== update ke branch-1 ====
 
+//check isi branch lokal
+git branch -a
 
+//sinkronkan lokal dengan GitHub
+git fetch
 
+//pindah dari branch master ke brach-1
+git checkout branch-1
 
-
-
-
+//melihat posisi sedang dibranch mana
+git branch
