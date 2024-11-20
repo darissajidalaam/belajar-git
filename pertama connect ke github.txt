@@ -1,0 +1,8 @@
+setelah install gitbash
+
+// melihat versi GitHub
+git -v
+
+//config dulu
+git config user.name "darissajidalaam"
+got config user.email "emailmu@gmail.com"
