@@ -1,1 +1,49 @@
 Hello world
+
+
+//klik kanan git bash here
+//cek folder saat ini
+git init 
+
+//cek status commit
+git status
+
+//masukkan file baru ke dalam kotak
+git add Hello.txt
+
+//masukkan semua file satu folder kedalam kotak
+git add .
+
+//bungkus kotak dan masukkan message
+git commit -m "add Hello.txt"
+
+//koneksikan GitHub pertama kali ke git kalau sudah terhubung gausah
+git remote add origin https://github.com/darissajidalaam/belajar-git.git
+
+//membuat master di GitHub pertama kali dan  upload file nanti diacc sama GitHub pertama kali ke git kalau sudah terhubung gausah
+git push --set-upstream origin master
+
+
+// mau update dan upload Hello.txt ke github
+//upload lagi semua file ke GitHub
+git add .
+
+//bungkus ke dalam kotak
+git commit -m "update Hello.txt"
+
+//upload ke GitHub
+git push 
+
+//file sudah terupload dan update
+
+//melihat log
+git log
+
+
+
+
+
+
+
+
+
