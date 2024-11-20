@@ -2,7 +2,7 @@ Hello world
 
 
 //klik kanan git bash here
-//cek folder saat ini
+//cek folder saat ini memunculkan hidden folder pertama kali
 git init 
 
 //cek status commit
