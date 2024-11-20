@@ -95,4 +95,4 @@ git push --set-upstream origin branch-2
 buat folder baru lalu klik kanan git bash here
 git clone (tujuanyangmaudidownload.git)
 
-UPLOAD DARI LOKAL KE BRANCH-2
+IKI SEKO BRANCH 2 MERGE NENG MASTER YOOOO UPDATE UHUY
