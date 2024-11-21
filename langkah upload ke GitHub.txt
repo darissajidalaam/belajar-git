@@ -1,0 +1,9 @@
+//langkah upload ke GitHub
+
+1. buat repository GitHub
+2. ke folder yang mau diupload klik kanan git bash here
+3. git init //inisial dulu menandakan ini adalah repository
+4. git add . //masukkan file kedalam kotak
+5. git commit -m "upload coder project" //bungkus dan kasih nama
+6. git remote add origin https://github.com/darissajidalaam/Coder.git //masukkan alamat GitHub repositorynya
+7. git push --set-upstream origin master //upload pakai upstream karena pertamakali kalau kedua seterusnya langsung git push
